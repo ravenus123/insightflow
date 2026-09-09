@@ -1,0 +1,241 @@
+order_date,order_id,customer_id,product_name,category,quantity,unit_price,total_price,region
+2026-02-11,ORD-1001,CUST-106,USB-C Hub,Accessories,1,59.5,59.5,Bratislava
+2026-03-10,ORD-1002,CUST-107,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-01-05,ORD-1003,CUST-108,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-01-12,ORD-1004,CUST-205,Wireless Mouse,Peripherals,1,79.0,79.0,Bratislava
+2026-01-29,ORD-1005,CUST-107,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-01-07,ORD-1006,CUST-209,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-02-07,ORD-1007,CUST-115,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-03-13,ORD-1008,CUST-174,Webcam,Peripherals,1,99.0,99.0,West Slovakia
+2026-02-17,ORD-1009,CUST-108,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-03-21,ORD-1010,CUST-168,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-02-10,ORD-1011,CUST-158,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-02-08,ORD-1012,CUST-189,USB-C Hub,Accessories,2,59.5,119.0,West Slovakia
+2026-01-11,ORD-1013,CUST-163,Wireless Mouse,Peripherals,1,79.0,79.0,Central Slovakia
+2026-02-27,ORD-1014,CUST-109,Monitor Arm,Workspace,1,129.0,129.0,Bratislava
+2026-03-07,ORD-1015,CUST-143,Laptop Stand,Workspace,1,89.9,89.9,West Slovakia
+2026-03-04,ORD-1016,CUST-185,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-03-13,ORD-1017,CUST-204,Wireless Mouse,Peripherals,2,79.0,158.0,Central Slovakia
+2026-02-13,ORD-1018,CUST-163,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-01-09,ORD-1019,CUST-160,Mechanical Keyboard,Peripherals,3,119.9,359.7,Bratislava
+2026-01-08,ORD-1020,CUST-182,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-02-06,ORD-1021,CUST-185,Webcam,Peripherals,1,99.0,99.0,Central Slovakia
+2026-01-03,ORD-1022,CUST-178,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-03-05,ORD-1023,CUST-136,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-02-01,ORD-1024,CUST-211,Laptop Stand,Workspace,1,89.9,89.9,East Slovakia
+2026-01-11,ORD-1025,CUST-170,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-01-18,ORD-1026,CUST-135,Laptop Stand,Workspace,2,89.9,179.8,East Slovakia
+2026-02-15,ORD-1027,CUST-129,Webcam,Peripherals,2,99.0,198.0,West Slovakia
+2026-01-11,ORD-1028,CUST-184,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-01-02,ORD-1029,CUST-123,Laptop Stand,Workspace,2,89.9,179.8,Central Slovakia
+2026-02-06,ORD-1030,CUST-168,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-03-20,ORD-1031,CUST-116,Wireless Mouse,Peripherals,1,79.0,79.0,Bratislava
+2026-02-28,ORD-1032,CUST-150,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-02-21,ORD-1033,CUST-181,Laptop Stand,Workspace,1,89.9,89.9,East Slovakia
+2026-01-08,ORD-1034,CUST-126,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-01-21,ORD-1035,CUST-106,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-01-01,ORD-1036,CUST-112,Wireless Mouse,Peripherals,1,79.0,79.0,Central Slovakia
+2026-03-20,ORD-1037,CUST-126,Mechanical Keyboard,Peripherals,1,119.9,119.9,East Slovakia
+2026-01-20,ORD-1038,CUST-144,Webcam,Peripherals,1,99.0,99.0,Central Slovakia
+2026-03-02,ORD-1039,CUST-162,Mechanical Keyboard,Peripherals,1,119.9,119.9,East Slovakia
+2026-03-03,ORD-1040,CUST-118,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-02-13,ORD-1041,CUST-206,Webcam,Peripherals,1,99.0,99.0,West Slovakia
+2026-03-08,ORD-1042,CUST-167,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-01-19,ORD-1043,CUST-103,Webcam,Peripherals,1,99.0,99.0,Central Slovakia
+2026-03-24,ORD-1044,CUST-133,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-01-22,ORD-1045,CUST-168,Monitor Arm,Workspace,2,129.0,258.0,Central Slovakia
+2026-03-23,ORD-1046,CUST-200,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-01-31,ORD-1047,CUST-129,Laptop Stand,Workspace,2,89.9,179.8,West Slovakia
+2026-03-08,ORD-1048,CUST-103,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-02-05,ORD-1049,CUST-188,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-02-27,ORD-1050,CUST-146,Webcam,Peripherals,4,99.0,396.0,Bratislava
+2026-01-29,ORD-1051,CUST-125,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-01-27,ORD-1052,CUST-215,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-03-03,ORD-1053,CUST-182,Webcam,Peripherals,1,99.0,99.0,Bratislava
+2026-03-26,ORD-1054,CUST-200,Mechanical Keyboard,Peripherals,3,119.9,359.7,West Slovakia
+2026-03-03,ORD-1055,CUST-181,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-01-12,ORD-1056,CUST-151,Webcam,Peripherals,1,99.0,99.0,Bratislava
+2026-01-21,ORD-1057,CUST-103,USB-C Hub,Accessories,4,59.5,238.0,West Slovakia
+2026-03-17,ORD-1058,CUST-118,Laptop Stand,Workspace,2,89.9,179.8,East Slovakia
+2026-03-26,ORD-1059,CUST-170,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-01-03,ORD-1060,CUST-192,Mechanical Keyboard,Peripherals,2,119.9,239.8,Bratislava
+2026-03-09,ORD-1061,CUST-155,Webcam,Peripherals,3,99.0,297.0,West Slovakia
+2026-01-28,ORD-1062,CUST-137,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-03-17,ORD-1063,CUST-153,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-01-08,ORD-1064,CUST-158,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-03-06,ORD-1065,CUST-167,USB-C Hub,Accessories,1,59.5,59.5,Bratislava
+2026-02-26,ORD-1066,CUST-199,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-01-23,ORD-1067,CUST-192,USB-C Hub,Accessories,1,59.5,59.5,Bratislava
+2026-03-13,ORD-1068,CUST-166,Mechanical Keyboard,Peripherals,1,119.9,119.9,East Slovakia
+2026-01-14,ORD-1069,CUST-124,Wireless Mouse,Peripherals,1,79.0,79.0,Central Slovakia
+2026-01-06,ORD-1070,CUST-171,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-01-09,ORD-1071,CUST-164,Laptop Stand,Workspace,1,89.9,89.9,West Slovakia
+2026-03-30,ORD-1072,CUST-168,Monitor Arm,Workspace,1,129.0,129.0,East Slovakia
+2026-03-06,ORD-1073,CUST-212,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-03-13,ORD-1074,CUST-117,USB-C Hub,Accessories,2,59.5,119.0,East Slovakia
+2026-01-16,ORD-1075,CUST-109,Laptop Stand,Workspace,1,89.9,89.9,West Slovakia
+2026-02-24,ORD-1076,CUST-138,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-01-20,ORD-1077,CUST-146,Webcam,Peripherals,1,99.0,99.0,West Slovakia
+2026-02-02,ORD-1078,CUST-128,USB-C Hub,Accessories,3,59.5,178.5,Bratislava
+2026-02-20,ORD-1079,CUST-185,Laptop Stand,Workspace,1,89.9,89.9,West Slovakia
+2026-01-21,ORD-1080,CUST-165,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-02-13,ORD-1081,CUST-140,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-02-16,ORD-1082,CUST-158,Mechanical Keyboard,Peripherals,1,119.9,119.9,East Slovakia
+2026-01-03,ORD-1083,CUST-179,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-03-07,ORD-1084,CUST-217,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-01-14,ORD-1085,CUST-105,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-02-04,ORD-1086,CUST-208,USB-C Hub,Accessories,2,59.5,119.0,Central Slovakia
+2026-02-21,ORD-1087,CUST-165,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-03-31,ORD-1088,CUST-107,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-02-24,ORD-1089,CUST-102,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-02-03,ORD-1090,CUST-128,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-02-03,ORD-1091,CUST-143,Mechanical Keyboard,Peripherals,1,119.9,119.9,East Slovakia
+2026-02-04,ORD-1092,CUST-167,Wireless Mouse,Peripherals,1,79.0,79.0,West Slovakia
+2026-01-15,ORD-1093,CUST-123,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-02-09,ORD-1094,CUST-197,Webcam,Peripherals,1,99.0,99.0,West Slovakia
+2026-02-07,ORD-1095,CUST-122,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-02-14,ORD-1096,CUST-104,Mechanical Keyboard,Peripherals,4,119.9,479.6,Bratislava
+2026-01-03,ORD-1097,CUST-124,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-02-01,ORD-1098,CUST-204,Laptop Stand,Workspace,1,89.9,89.9,East Slovakia
+2026-03-26,ORD-1099,CUST-213,Laptop Stand,Workspace,1,89.9,89.9,East Slovakia
+2026-03-06,ORD-1100,CUST-129,Monitor Arm,Workspace,1,129.0,129.0,Central Slovakia
+2026-01-26,ORD-1101,CUST-117,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-02-14,ORD-1102,CUST-101,Mechanical Keyboard,Peripherals,2,119.9,239.8,Bratislava
+2026-03-22,ORD-1103,CUST-155,Webcam,Peripherals,2,99.0,198.0,West Slovakia
+2026-01-08,ORD-1104,CUST-148,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-03-18,ORD-1105,CUST-105,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-01-24,ORD-1106,CUST-100,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-02-16,ORD-1107,CUST-170,Monitor Arm,Workspace,3,129.0,387.0,Central Slovakia
+2026-02-01,ORD-1108,CUST-139,Mechanical Keyboard,Peripherals,3,119.9,359.7,West Slovakia
+2026-02-15,ORD-1109,CUST-148,USB-C Hub,Accessories,1,59.5,59.5,Bratislava
+2026-03-02,ORD-1110,CUST-125,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-03-06,ORD-1111,CUST-204,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-01-19,ORD-1112,CUST-150,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-02-08,ORD-1113,CUST-110,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-03-26,ORD-1114,CUST-176,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-02-11,ORD-1115,CUST-119,Webcam,Peripherals,4,99.0,396.0,Central Slovakia
+2026-03-21,ORD-1116,CUST-205,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-03-31,ORD-1117,CUST-167,Wireless Mouse,Peripherals,1,79.0,79.0,Bratislava
+2026-03-29,ORD-1118,CUST-191,Wireless Mouse,Peripherals,2,79.0,158.0,West Slovakia
+2026-01-11,ORD-1119,CUST-181,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-01-14,ORD-1120,CUST-171,Laptop Stand,Workspace,2,89.9,179.8,Bratislava
+2026-03-22,ORD-1121,CUST-187,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-03-04,ORD-1122,CUST-202,Monitor Arm,Workspace,1,129.0,129.0,Bratislava
+2026-03-06,ORD-1123,CUST-167,Wireless Mouse,Peripherals,1,79.0,79.0,Bratislava
+2026-03-02,ORD-1124,CUST-208,Monitor Arm,Workspace,2,129.0,258.0,Central Slovakia
+2026-01-31,ORD-1125,CUST-129,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-03-05,ORD-1126,CUST-216,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-01-06,ORD-1127,CUST-125,Wireless Mouse,Peripherals,1,79.0,79.0,Bratislava
+2026-03-18,ORD-1128,CUST-183,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-03-21,ORD-1129,CUST-161,Wireless Mouse,Peripherals,1,79.0,79.0,Bratislava
+2026-03-04,ORD-1130,CUST-112,Monitor Arm,Workspace,3,129.0,387.0,West Slovakia
+2026-03-28,ORD-1131,CUST-166,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-03-01,ORD-1132,CUST-115,Laptop Stand,Workspace,1,89.9,89.9,West Slovakia
+2026-02-09,ORD-1133,CUST-102,Mechanical Keyboard,Peripherals,3,119.9,359.7,Central Slovakia
+2026-02-28,ORD-1134,CUST-157,Mechanical Keyboard,Peripherals,2,119.9,239.8,Central Slovakia
+2026-02-19,ORD-1135,CUST-219,USB-C Hub,Accessories,3,59.5,178.5,West Slovakia
+2026-01-10,ORD-1136,CUST-195,Wireless Mouse,Peripherals,1,79.0,79.0,Central Slovakia
+2026-02-16,ORD-1137,CUST-180,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-01-15,ORD-1138,CUST-163,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-02-20,ORD-1139,CUST-162,Mechanical Keyboard,Peripherals,1,119.9,119.9,East Slovakia
+2026-02-21,ORD-1140,CUST-153,Monitor Arm,Workspace,2,129.0,258.0,Central Slovakia
+2026-02-18,ORD-1141,CUST-142,Monitor Arm,Workspace,1,129.0,129.0,Bratislava
+2026-02-11,ORD-1142,CUST-115,Monitor Arm,Workspace,2,129.0,258.0,West Slovakia
+2026-01-02,ORD-1143,CUST-147,Webcam,Peripherals,1,99.0,99.0,Bratislava
+2026-02-20,ORD-1144,CUST-175,Laptop Stand,Workspace,4,89.9,359.6,Bratislava
+2026-02-16,ORD-1145,CUST-209,Laptop Stand,Workspace,2,89.9,179.8,Bratislava
+2026-02-05,ORD-1146,CUST-184,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-03-23,ORD-1147,CUST-134,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-03-07,ORD-1148,CUST-147,Monitor Arm,Workspace,1,129.0,129.0,East Slovakia
+2026-01-04,ORD-1149,CUST-212,Webcam,Peripherals,1,99.0,99.0,West Slovakia
+2026-01-11,ORD-1150,CUST-152,Mechanical Keyboard,Peripherals,3,119.9,359.7,East Slovakia
+2026-03-20,ORD-1151,CUST-136,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-01-07,ORD-1152,CUST-160,Wireless Mouse,Peripherals,1,79.0,79.0,East Slovakia
+2026-02-13,ORD-1153,CUST-194,Monitor Arm,Workspace,1,129.0,129.0,Central Slovakia
+2026-02-21,ORD-1154,CUST-161,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-01-16,ORD-1155,CUST-109,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-03-06,ORD-1156,CUST-157,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-02-27,ORD-1157,CUST-124,Laptop Stand,Workspace,1,89.9,89.9,West Slovakia
+2026-01-12,ORD-1158,CUST-111,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-01-31,ORD-1159,CUST-172,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-01-03,ORD-1160,CUST-149,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-03-09,ORD-1161,CUST-143,USB-C Hub,Accessories,1,59.5,59.5,Bratislava
+2026-03-05,ORD-1162,CUST-146,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-03-29,ORD-1163,CUST-201,Wireless Mouse,Peripherals,1,79.0,79.0,West Slovakia
+2026-01-12,ORD-1164,CUST-149,Monitor Arm,Workspace,2,129.0,258.0,East Slovakia
+2026-03-24,ORD-1165,CUST-139,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-01-17,ORD-1166,CUST-197,Mechanical Keyboard,Peripherals,1,119.9,119.9,East Slovakia
+2026-03-17,ORD-1167,CUST-150,Laptop Stand,Workspace,1,89.9,89.9,East Slovakia
+2026-02-27,ORD-1168,CUST-128,USB-C Hub,Accessories,2,59.5,119.0,West Slovakia
+2026-01-20,ORD-1169,CUST-113,Wireless Mouse,Peripherals,3,79.0,237.0,East Slovakia
+2026-01-11,ORD-1170,CUST-100,Wireless Mouse,Peripherals,2,79.0,158.0,West Slovakia
+2026-01-30,ORD-1171,CUST-182,Wireless Mouse,Peripherals,3,79.0,237.0,Central Slovakia
+2026-01-17,ORD-1172,CUST-181,Webcam,Peripherals,1,99.0,99.0,East Slovakia
+2026-03-31,ORD-1173,CUST-138,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-02-19,ORD-1174,CUST-176,Monitor Arm,Workspace,1,129.0,129.0,Bratislava
+2026-01-02,ORD-1175,CUST-158,Wireless Mouse,Peripherals,1,79.0,79.0,Central Slovakia
+2026-02-10,ORD-1176,CUST-131,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-03-09,ORD-1177,CUST-103,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-03-25,ORD-1178,CUST-124,Monitor Arm,Workspace,1,129.0,129.0,East Slovakia
+2026-03-28,ORD-1179,CUST-132,Webcam,Peripherals,1,99.0,99.0,West Slovakia
+2026-03-27,ORD-1180,CUST-129,Laptop Stand,Workspace,3,89.9,269.7,East Slovakia
+2026-01-05,ORD-1181,CUST-153,Webcam,Peripherals,1,99.0,99.0,Central Slovakia
+2026-03-29,ORD-1182,CUST-202,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-03-06,ORD-1183,CUST-125,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-01-25,ORD-1184,CUST-133,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-01-14,ORD-1185,CUST-123,Wireless Mouse,Peripherals,1,79.0,79.0,West Slovakia
+2026-03-04,ORD-1186,CUST-107,Laptop Stand,Workspace,3,89.9,269.7,West Slovakia
+2026-02-20,ORD-1187,CUST-176,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-02-23,ORD-1188,CUST-123,Mechanical Keyboard,Peripherals,2,119.9,239.8,East Slovakia
+2026-02-27,ORD-1189,CUST-193,Webcam,Peripherals,2,99.0,198.0,Bratislava
+2026-01-11,ORD-1190,CUST-123,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-01-05,ORD-1191,CUST-148,Monitor Arm,Workspace,1,129.0,129.0,Central Slovakia
+2026-02-12,ORD-1192,CUST-100,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-02-05,ORD-1193,CUST-213,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-03-13,ORD-1194,CUST-198,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-02-25,ORD-1195,CUST-160,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-02-17,ORD-1196,CUST-124,Wireless Mouse,Peripherals,3,79.0,237.0,Central Slovakia
+2026-02-16,ORD-1197,CUST-103,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-02-01,ORD-1198,CUST-105,Webcam,Peripherals,2,99.0,198.0,East Slovakia
+2026-01-05,ORD-1199,CUST-217,Laptop Stand,Workspace,1,89.9,89.9,Bratislava
+2026-02-02,ORD-1200,CUST-215,USB-C Hub,Accessories,2,59.5,119.0,Central Slovakia
+2026-02-16,ORD-1201,CUST-178,Monitor Arm,Workspace,1,129.0,129.0,Bratislava
+2026-02-03,ORD-1202,CUST-140,Webcam,Peripherals,2,99.0,198.0,Central Slovakia
+2026-02-08,ORD-1203,CUST-176,Mechanical Keyboard,Peripherals,2,119.9,239.8,Bratislava
+2026-01-04,ORD-1204,CUST-191,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-02-19,ORD-1205,CUST-204,Monitor Arm,Workspace,3,129.0,387.0,East Slovakia
+2026-01-17,ORD-1206,CUST-202,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-03-30,ORD-1207,CUST-141,USB-C Hub,Accessories,1,59.5,59.5,Central Slovakia
+2026-02-28,ORD-1208,CUST-176,Monitor Arm,Workspace,2,129.0,258.0,Bratislava
+2026-03-07,ORD-1209,CUST-120,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-02-22,ORD-1210,CUST-161,Mechanical Keyboard,Peripherals,1,119.9,119.9,Central Slovakia
+2026-01-21,ORD-1211,CUST-109,Laptop Stand,Workspace,2,89.9,179.8,Central Slovakia
+2026-03-21,ORD-1212,CUST-153,Mechanical Keyboard,Peripherals,1,119.9,119.9,East Slovakia
+2026-02-27,ORD-1213,CUST-153,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-03-21,ORD-1214,CUST-168,Webcam,Peripherals,1,99.0,99.0,Bratislava
+2026-02-07,ORD-1215,CUST-134,Monitor Arm,Workspace,1,129.0,129.0,Central Slovakia
+2026-02-02,ORD-1216,CUST-156,Webcam,Peripherals,1,99.0,99.0,West Slovakia
+2026-01-24,ORD-1217,CUST-136,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-02-11,ORD-1218,CUST-131,Mechanical Keyboard,Peripherals,1,119.9,119.9,West Slovakia
+2026-03-25,ORD-1219,CUST-104,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-01-01,ORD-1220,CUST-129,Laptop Stand,Workspace,2,89.9,179.8,East Slovakia
+2026-02-17,ORD-1221,CUST-129,Mechanical Keyboard,Peripherals,2,119.9,239.8,Bratislava
+2026-01-07,ORD-1222,CUST-205,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-01-10,ORD-1223,CUST-122,Monitor Arm,Workspace,1,129.0,129.0,East Slovakia
+2026-03-19,ORD-1224,CUST-185,Monitor Arm,Workspace,2,129.0,258.0,Bratislava
+2026-01-14,ORD-1225,CUST-179,Webcam,Peripherals,1,99.0,99.0,Central Slovakia
+2026-01-28,ORD-1226,CUST-118,Mechanical Keyboard,Peripherals,1,119.9,119.9,Bratislava
+2026-01-27,ORD-1227,CUST-193,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-01-02,ORD-1228,CUST-147,Monitor Arm,Workspace,1,129.0,129.0,West Slovakia
+2026-03-21,ORD-1229,CUST-104,Monitor Arm,Workspace,1,129.0,129.0,East Slovakia
+2026-03-12,ORD-1230,CUST-112,Laptop Stand,Workspace,1,89.9,89.9,East Slovakia
+2026-03-26,ORD-1231,CUST-168,Wireless Mouse,Peripherals,1,79.0,79.0,Bratislava
+2026-03-25,ORD-1232,CUST-134,USB-C Hub,Accessories,1,59.5,59.5,East Slovakia
+2026-02-06,ORD-1233,CUST-106,Webcam,Peripherals,1,99.0,99.0,Central Slovakia
+2026-03-14,ORD-1234,CUST-102,Monitor Arm,Workspace,1,129.0,129.0,Central Slovakia
+2026-03-24,ORD-1235,CUST-151,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-01-01,ORD-1236,CUST-154,Laptop Stand,Workspace,3,89.9,269.7,Bratislava
+2026-01-12,ORD-1237,CUST-146,Laptop Stand,Workspace,1,89.9,89.9,East Slovakia
+2026-01-21,ORD-1238,CUST-170,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
+2026-03-24,ORD-1239,CUST-179,Laptop Stand,Workspace,1,89.9,89.9,Central Slovakia
+2026-03-06,ORD-1240,CUST-136,USB-C Hub,Accessories,1,59.5,59.5,West Slovakia
