@@ -1,0 +1,5 @@
+"use client";
+import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
+import type { NamedMetric } from "@/lib/types";
+const colors=['#8f7cff','#6f78ff','#b694ff','#d2b4ff','#554a78'];
+export function CategoryChart({data}:{data:NamedMetric[]}){return <div className="donut-layout"><div className="donut-chart"><ResponsiveContainer width="100%" height="100%"><PieChart><Pie data={data} dataKey="revenue" nameKey="name" cx="50%" cy="50%" innerRadius="64%" outerRadius="86%" paddingAngle={3} stroke="none">{data.map((_,i)=><Cell key={i} fill={colors[i%colors.length]}/>)}</Pie><Tooltip contentStyle={{background:'rgba(18,15,35,.94)',border:'1px solid rgba(255,255,255,.12)',borderRadius:14}} formatter={(v)=>`€${Number(v).toLocaleString()}`}/></PieChart></ResponsiveContainer><div className="donut-center"><strong>{data[0]?.share?.toFixed(0)??'—'}%</strong><span>top share</span></div></div><div className="legend-list">{data.map((d,i)=><div key={d.name}><span className="legend-dot" style={{background:colors[i%colors.length]}}/><strong>{d.name}</strong><small>{d.share?.toFixed(1)}%</small></div>)}</div></div>}

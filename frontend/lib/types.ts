@@ -1,20 +1,11 @@
-export type ColumnRole = "date" | "revenue" | "product" | "order_id" | "ignore";
-
-export interface DatasetUploadResponse {
-  dataset_id: string;
-  filename: string;
-  rows: number;
-  columns: string[];
-  preview: Record<string, unknown>[];
-  detected_mapping: Partial<Record<Exclude<ColumnRole, "ignore">, string>>;
-}
-
-export interface AnalyticsResponse {
-  metrics: {
-    total_revenue: number;
-    orders: number;
-    average_order_value: number;
-  };
-  revenue_over_time: Array<{ date: string; revenue: number }>;
-  top_products: Array<{ product: string; revenue: number; orders: number }>;
-}
+export type Detection = { column: string; confidence: number };
+export type UploadResponse = { dataset_id: string; filename: string; rows: number; columns: string[]; preview: Record<string, unknown>[]; detected_mapping: Record<string, Detection> };
+export type QualityIssue = { code: string; severity: "low"|"medium"|"high"; title: string; detail: string; count: number; deduction: number };
+export type QualityResponse = { score: number; grade: string; rows: number; columns: number; issues: QualityIssue[]; healthy_checks: string[] };
+export type MetricSet = { total_revenue: number; orders: number; customers: number; average_order_value: number; revenue_growth: number; order_growth: number };
+export type SeriesPoint = { date: string; revenue: number; orders?: number };
+export type NamedMetric = { name: string; revenue: number; orders?: number; share?: number };
+export type ProductMetric = { product: string; revenue: number; orders: number };
+export type CustomerMetric = { customer: string; revenue: number; orders: number };
+export type Insight = { tone: "positive"|"neutral"|"warning"; title: string; detail: string };
+export type AnalyticsResponse = { metrics: MetricSet; revenue_over_time: SeriesPoint[]; orders_over_time: SeriesPoint[]; top_products: ProductMetric[]; top_customers: CustomerMetric[]; categories: NamedMetric[]; regions: NamedMetric[]; insights: Insight[]; fallbacks: string[] };

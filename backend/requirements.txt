@@ -4,6 +4,11 @@ pydantic==2.11.7
 pydantic-settings==2.10.1
 pandas==2.3.2
 numpy==2.3.2
+openpyxl==3.1.5
 python-multipart==0.0.20
+SQLAlchemy==2.0.43
+alembic==1.16.5
+PyJWT==2.10.1
+psycopg[binary]==3.2.9
 pytest==8.4.1
 httpx==0.28.1

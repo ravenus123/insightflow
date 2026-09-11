@@ -1,45 +1,32 @@
-# InsightFlow architecture — V0.1
+# InsightFlow architecture
 
-## Goal
-
-V0.1 proves the core product loop without authentication, persistence, AI, Excel support, or advanced data quality tooling.
+InsightFlow is a monorepo with a Next.js desktop client and a FastAPI analytics API.
 
 ```text
-CSV upload
-  -> parser
-  -> schema inspection
-  -> semantic column detection
-  -> user-confirmed mapping
-  -> analytics service
-  -> typed API response
-  -> dashboard
+Browser / Next.js
+    │
+    ├── marketing + workspace UI
+    ├── semantic mapping
+    └── charts / report presentation
+    │ JSON + multipart
+    ▼
+FastAPI
+    ├── API routes (HTTP only)
+    ├── dataset parser (CSV/XLSX)
+    ├── column detector
+    ├── data-quality engine
+    ├── analytics service
+    └── deterministic insight rules
+    │
+    ├── PostgreSQL / SQLite dev metadata
+    └── local/object-style uploaded dataset storage
 ```
 
-## Architectural boundary
+## Key boundary
+Analytics never hard-codes source column names. A dataset first becomes a **semantic mapping** (revenue, order date, product, customer, category, region, etc.), and analytics consumes those roles.
 
-The frontend presents state. The backend owns dataset interpretation and analytics.
+## Persistence
+Manual local development defaults to SQLite. Docker Compose uses PostgreSQL so the project demonstrates a production-shaped database path without making local onboarding painful.
 
-Analytics code never depends on raw source column names. It receives semantic mappings such as `revenue -> total_price`.
-
-## Temporary dataset strategy
-
-Uploaded files are written to `/tmp/insightflow/{uuid}.csv` in V0.1. This keeps the upload and analyze calls separated without introducing PostgreSQL too early.
-
-## V0.1 API
-
-- `GET /api/v1/health`
-- `POST /api/v1/datasets/upload`
-- `POST /api/v1/datasets/{dataset_id}/analyze`
-
-## Future boundaries
-
-Later releases can add:
-
-- PostgreSQL metadata persistence
-- object storage / Parquet / DuckDB for larger datasets
-- workspaces and users
-- data quality runs
-- deterministic insights
-- reports and exports
-- Excel imports
-- AI-assisted querying as an optional layer
+## No hidden AI dependency
+The initial insight engine is deterministic and auditable. It uses comparisons, mix/concentration math and data-quality rules rather than an LLM.

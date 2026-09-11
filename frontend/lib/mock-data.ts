@@ -1,15 +1,16 @@
-export const previewRows = [
-  { order_date: "2026-01-03", order_id: "A-1001", product_name: "Laptop Stand", total_price: 89.9 },
-  { order_date: "2026-01-03", order_id: "A-1002", product_name: "USB-C Hub", total_price: 59.5 },
-  { order_date: "2026-01-04", order_id: "A-1003", product_name: "Monitor Arm", total_price: 129.0 },
-  { order_date: "2026-01-05", order_id: "A-1004", product_name: "Mechanical Keyboard", total_price: 119.9 },
-  { order_date: "2026-01-05", order_id: "A-1005", product_name: "Wireless Mouse", total_price: 79.0 }
-];
+import type { AnalyticsResponse, QualityResponse, UploadResponse } from "./types";
 
-export const topProducts = [
-  ["Mechanical Keyboard", "€19,230"],
-  ["USB-C Hub", "€17,850"],
-  ["Monitor Arm", "€12,300"],
-  ["Laptop Stand", "€10,940"],
-  ["Wireless Mouse", "€9,810"]
-];
+export const demoUpload: UploadResponse = {
+  dataset_id:"demo-retail", filename:"retail_sales.csv", rows:2481, columns:["order_date","order_id","customer_id","product_name","category","quantity","unit_price","total_price","region"],
+  preview:[
+    {order_date:"2026-02-11",order_id:"ORD-1001",customer_id:"CUST-106",product_name:"USB-C Hub",category:"Accessories",quantity:1,unit_price:59.5,total_price:59.5,region:"Bratislava"},
+    {order_date:"2026-03-10",order_id:"ORD-1002",customer_id:"CUST-107",product_name:"Mechanical Keyboard",category:"Peripherals",quantity:1,unit_price:119.9,total_price:119.9,region:"West Slovakia"},
+    {order_date:"2026-01-05",order_id:"ORD-1003",customer_id:"CUST-108",product_name:"Mechanical Keyboard",category:"Peripherals",quantity:1,unit_price:119.9,total_price:119.9,region:"West Slovakia"},
+    {order_date:"2026-01-12",order_id:"ORD-1004",customer_id:"CUST-205",product_name:"Wireless Mouse",category:"Peripherals",quantity:1,unit_price:79,total_price:79,region:"Bratislava"},
+    {order_date:"2026-03-21",order_id:"ORD-1005",customer_id:"CUST-402",product_name:"27-inch Monitor",category:"Displays",quantity:2,unit_price:289,total_price:578,region:"Central Slovakia"},
+  ],
+  detected_mapping:{date:{column:"order_date",confidence:.98},order_id:{column:"order_id",confidence:.91},customer:{column:"customer_id",confidence:.91},product:{column:"product_name",confidence:.93},category:{column:"category",confidence:.98},quantity:{column:"quantity",confidence:.98},unit_price:{column:"unit_price",confidence:.98},revenue:{column:"total_price",confidence:.98},region:{column:"region",confidence:.98}}
+};
+export const demoQuality: QualityResponse={score:94,grade:"Excellent",rows:2481,columns:9,issues:[{code:"missing_customer",severity:"low",title:"Missing customer IDs",detail:"A small portion of rows cannot be attributed to a customer.",count:23,deduction:2},{code:"duplicates",severity:"medium",title:"Potential duplicate orders",detail:"Rows sharing the same order ID and amount may be duplicates.",count:7,deduction:2},{code:"outliers",severity:"low",title:"Revenue outliers",detail:"High-value orders are outside the IQR range and deserve review.",count:11,deduction:2}],healthy_checks:["Revenue is 99.8% numeric","All mapped dates parse successfully","No negative revenue values detected","Category labels are consistent"]};
+const series=[18400,21600,19800,24700,22900,28500,25100,31900,30200,34400,33700,39400].map((revenue,i)=>({date:["Jan 05","Jan 12","Jan 19","Jan 26","Feb 02","Feb 09","Feb 16","Feb 23","Mar 02","Mar 09","Mar 16","Mar 23"][i],revenue,orders:170+i*7+(i%3)*12}));
+export const demoAnalytics: AnalyticsResponse={metrics:{total_revenue:184320.42,orders:2481,customers:1043,average_order_value:74.29,revenue_growth:12.4,order_growth:7.1},revenue_over_time:series,orders_over_time:series,top_products:[{product:"27-inch Monitor",revenue:28390,orders:98},{product:"Mechanical Keyboard",revenue:24170,orders:202},{product:"USB-C Dock",revenue:21940,orders:174},{product:"Noise-cancelling Headphones",revenue:19820,orders:92},{product:"Wireless Mouse",revenue:15720,orders:199}],top_customers:[{customer:"CUST-214",revenue:8430,orders:21},{customer:"CUST-108",revenue:7210,orders:18},{customer:"CUST-402",revenue:6480,orders:16},{customer:"CUST-319",revenue:5890,orders:14}],categories:[{name:"Peripherals",revenue:61200,share:33.2},{name:"Displays",revenue:45800,share:24.8},{name:"Accessories",revenue:39200,share:21.3},{name:"Audio",revenue:25100,share:13.6},{name:"Other",revenue:13020,share:7.1}],regions:[{name:"Bratislava",revenue:71300,share:38.7},{name:"West Slovakia",revenue:46900,share:25.4},{name:"Central Slovakia",revenue:38200,share:20.7},{name:"East Slovakia",revenue:27920,share:15.2}],insights:[{tone:"positive",title:"Momentum strengthened in March",detail:"Revenue is 12.4% higher than the previous comparison period, with the final three weeks driving most of the acceleration."},{tone:"positive",title:"Peripherals lead category mix",detail:"Peripherals contribute 33.2% of tracked revenue and remain the broadest source of sales volume."},{tone:"neutral",title:"Customer concentration is healthy",detail:"The top customers contribute less than 16% of revenue, reducing reliance on a small group of accounts."}],fallbacks:[]};
